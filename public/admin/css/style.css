@@ -1,0 +1,216 @@
+
+/* start header bar */
+.top-bar{
+    position: relative;
+    background-color: blue;
+}
+.top-bar .logo{
+    display: inline-block;
+
+}
+.top-bar .logo a{
+    text-decoration: none;
+}.top-bar .logo a h4{
+    color: white;
+}
+.top-bar .float-right{
+    text-align: center;
+    margin-top: 4px;
+}
+.top-bar .float-right a{
+    color: white;
+    padding-left: 5px;
+    text-decoration: none;
+}.top-bar .float-right a:hover{
+    color: rgb(235, 231, 231);
+
+}
+@media ( min-width: 1200px){
+    .top-bar{
+        max-width: 100%;
+    }
+}
+/* nav */
+ul.navbar-nav{
+    margin-left: 30rem;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    position: relative;
+    display: inline-block
+}
+nav ul li a{
+   text-decoration: none !important;
+   color: #000;
+   padding-left: 10px;
+   font-size: 18px;
+
+}
+nav ul li a:hover{
+    color: blue !important;
+}
+nav ul li a.active{
+    color: blue !important;
+}
+.navbar{
+    background-color: #f7f7f7!important;
+}
+@media ( max-width: 1200px){
+    ul.navbar-nav{
+        margin-left: 22rem;
+    }
+}
+/* end  */
+
+/** admin content **/
+.wrapper {
+  width: 100%;
+}
+
+#sidebar {
+  width: 20%;
+  background: var(--secondary-color);
+  color: #fff;
+}
+#sidebar.active {
+    width: 80px;
+    text-align: center;
+}
+
+#sidebar ul li a {
+  padding: 10px 30px;
+  display: block;
+  color: white;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+#sidebar.active ul.components li {
+    font-size: 14px;
+}
+
+#sidebar.active ul.components li a {
+    padding: 10px 0;
+}
+
+#sidebar.active ul.components li a i {
+  display: block;
+  font-size: 24px;
+}
+
+#content {
+  width: 100%;
+  padding: 0;
+  min-height: 100vh;
+}
+.table button{
+	outline: none;
+	background-color:var(--main-color);
+	color: rgb(0, 0, 0);
+	padding: 0 4px;
+    border: none;
+	text-align: center;
+}
+
+#content h2{
+	text-align: center;
+	padding: 2rem;
+	padding-top: 1rem;
+}
+/* end content */
+/* strat footer */
+
+/* footer */
+
+section.footer{
+	padding-bottom: 8%;
+	padding-top: 5%;
+    background-color: #4a4a4a;
+    bottom: 0;
+    position: relative;
+    padding-bottom: 80px;
+}
+section.footer .left{
+	float: left;
+
+	opacity: 0.9;
+
+}
+section.footer .left span{
+	font-size: 15px;
+	color: #cecbcb;
+	display: inline-block;
+	padding-top: 0px;
+}
+section.footer .left img{
+	width: 20px;
+	height: 20px;
+	color: #000;
+	margin-bottom: -5px;
+
+}
+section.footer .right {
+	float: right;
+}
+section.footer .right span{
+	display: block;
+	color: #aaa;
+	font-size: 15px;
+}
+section.footer .intro{
+	position: relative;
+}
+section.footer .intro ul{
+	position: absolute;
+	left: 34%;
+	bottom: -70px;
+	display: table;
+
+	text-align: center;
+	overflow: hidden;
+}
+section.footer .intro ul li{
+	list-style: none;
+	float: left;
+	background: none;
+	border: 2px solid #fff;
+	padding:22px ;
+	font-size: 25px;
+	color: #fff;
+}
+@media(max-width:991px){
+    section.footer .left{
+        display: none;
+    }
+    section.footer .intro ul{
+        left: 2%;
+        bottom: -77px;
+    }
+
+}
+/* end footer */
+.name1 label{
+    display: block;
+    font-size: 17px;
+    font-weight: bold;
+    color: #0a56fbf5;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+.name1 input[type="text"],
+.name1 input[type="email"],
+.name1 input[type="password"] ,
+.name1 input[type="number"] ,
+.name1 input[type="date"] ,
+.name1 select{
+    width: 100%;
+    padding: 10PX;
+}
+.name1 input[type="submit"] {
+    margin-top: 20px;
+    padding: 6px;
+    background-color: #0c49ff;
+    border: none;
+    color: #fff;
+}
